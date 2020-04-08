@@ -10,19 +10,18 @@ C++ version 11+ and SFML (Simple and Fast Multimedia Library) is required to run
 <details><summary><b>For Linux</b></summary>
 
 Command to install the SFML lib:
-
-    ```
-    $ sudo apt-get install libsfml-dev
-    ```
+```
+$ sudo apt-get install libsfml-dev
+```
     
 </details>
 
 ## How to Run 
 
 ```
-g++ -std=c++11 -c geometry.h rrt.cpp 
-g++ rrt.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
-./sfml-app 
+$ g++ -std=c++11 -c geometry.h rrt.cpp 
+$ g++ rrt.o -o sfml-app -lsfml-graphics -lsfml-window -lsfml-system
+$ ./sfml-app 
 ```
 
 ## Usage 
