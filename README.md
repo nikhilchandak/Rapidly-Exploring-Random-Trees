@@ -27,6 +27,8 @@ $ ./sfml-app
 
 ## Usage 
 
+Example of interaction with the program:
+
 ```
 NOTE:
 Height of screen: 600 pixels. Width of screeen: 800 pixels.
