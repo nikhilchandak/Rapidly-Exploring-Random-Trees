@@ -3,11 +3,12 @@ My C++ implementations of RRT, RRT* and anytime RRT (robotics algorithms used in
 
 ## Requirements
 
-C++ version 11+ and SFML (Simple and Fast Multimedia Library) is required to run the codes. 
+C++ 11+ and SFML (Simple and Fast Multimedia Library) is required to run the codes. 
 
 ## Installation 
 
 <details><summary><b>For Linux</b></summary>
+
 
 Command to install the SFML lib:
 ```
@@ -81,4 +82,18 @@ Input co-ordinates of 2th polygon in clockwise order
 350 250
 450 250
 500 100
+```
+## Config
+
+Configuration of the screen size, jump size of algorithm, radius of circle of starting/destination points, goal sampling probability can be changed in the rrt.cpp file in the section shown below:
+
+```
+const int WIDTH = 800 ;
+const int HEIGHT = 600 ;
+const int RADIUS = 5 ; 
+const double GOAL_SAMPLING_PROB = 0.05;
+const double INF = 1e18;
+
+const double JUMP_SIZE = (WIDTH/100.0 * HEIGHT/100.0)/1.5;
+const double DISK_SIZE = JUMP_SIZE ; // Ball radius around which nearby points are found
 ```
