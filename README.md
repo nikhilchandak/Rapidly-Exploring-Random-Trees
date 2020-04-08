@@ -7,15 +7,11 @@ C++ 11+ and SFML (Simple and Fast Multimedia Library) is required to run the cod
 
 ## Installation 
 
-<details><summary><b>For Linux</b></summary>
+Instructions on how to install SFML on Linux (For other OS, please check the guide(s) available online) 
 
-
-Command to install the SFML lib:
 ```
 $ sudo apt-get install libsfml-dev
 ```
-    
-</details>
 
 ## How to Run 
 
